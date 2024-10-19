@@ -1,0 +1,41 @@
+ .RightSidebar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 200px;
+    padding: 20px;
+    background-color: #1f1f3d; /* Dark Purple */
+    border-left: solid 1px #ccc; /* TODO: Maybe remove */
+ }
+
+ .Logo img {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+ }
+
+ .Menu ul {
+    list-style: none;
+    padding: 0;
+ }
+
+ .Menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+ }
+
+.Menu li:hover {
+    color: orange;
+}
+
+.Menu li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Menu li .icon {
+    margin-right: 10px;
+}

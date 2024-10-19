@@ -1,0 +1,19 @@
+.Post {
+
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px 0px;
+
+}
+
+.PostHeader img {
+    width: 40px;
+    border-radius: 30%;
+}
+
+.PostContent img {
+    width: 75%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
