@@ -1,19 +1,19 @@
 html {
-  background-color: #0e0e21; /* Dark Blue */
+  background-color: #0d0d0d; /* Black */
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  color: #ffffff; /* White */
+  color: #BF3617; /* White */ 
 }
 
 /* Central deverá permanecer no meio, junto com os posts */
 .Central {
-  margin-left: 19%;
-  margin-right: 19%;
-  border: solid 1px #ccc;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: solid 1px #BF3617;
   position: relative;
 }
 
@@ -21,16 +21,34 @@ body {
 .TopBar {
   position: sticky;
   top: 0;
-  background-color: #1f1f3d; /* Dark Purple */ 
+  background-color: #0D0D0D; /* Dark Purple */ 
   /* TODO: Change to a color that goes good with orange */
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #BF3617;
 }
 
 .TopBarIcon {
-  color: white;
   font-size: 1.5rem;
 }
+
+.TopBar button {
+  background-color: transparent;
+  color: #F2541B; /* Orange */
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px 5px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: 3px;
+}
+
+.TopBar button:hover {
+  background-color: #F2541B;
+  color: #0D0D0D; /* Black */
+}
+

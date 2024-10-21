@@ -1,40 +1,104 @@
 /* Leftsidebar deverá permanecer na esquerda */
 .LeftSidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 200px;
-    background-color: #1f1f3d; /* Dark Purple */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  position: fixed;
+  margin-left: 13.5%;
+  top: 0;
+  bottom: 0;
+  width: 15vw;
+  background-color: #0d0d0d; /* Dark Background */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: solid 1px #bf3617;
+}
+
+.SearchBar {
+  display: flex;
+  align-items: center;
+  background-color: #3d291f;
+  padding: 0.2rem;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: -1.4rem;
+}
+.SearchBar input {
+  background: transparent;
+  color: orange;
+  border: none;
+  width: 95%;
+  outline: none;
+
+}
+.SearchIcon {
+  margin-right: 0.4rem;
+}
 
 .LeftSidebarContent {
   padding: 1vw;
+  margin-bottom: 30vh;
+  margin-left: -3rem;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 15px;
 }
 
 .Profile img {
-  width: 30%;
-  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  margin-right: 0.7rem;
+  border-radius: 30%;
+  margin-left: 0.5rem;
 }
 
-.WriteBox{
-  background-color: #1f1f3d; /* Dark Purple */
+.OwnProfileIDs h2,
+.OwnProfileIDs p {
+  margin: 0;
+  padding-top: 0.6rem;
+}
+
+.OwnProfileIDs h2 {
+  color: #ccc;
+}
+.OwnProfileIDs p {
+  color: #ccc;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.WriteBox {
+  background-color: #3d291f; 
   padding: 1vw;
   border-radius: 5px;
+  margin-top: 0;
+  margin-right: -0.37rem;
+  margin-left: 0.4rem;
 }
 
 .WriteBox textarea {
-  width: 100%;
+  width: 11.6rem;
   height: 100px;
-  background-color: #3a3a5d; /* Dark Purple */
-  color: #ffffff; /* White */
+  background-color: #3d291f; 
+  color: #f26716; /* Orange */
   border: none;
   border-radius: 5px;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 10px;
+  resize: none;
+  outline: none;
+  margin-left: -0.6rem;
+  margin-top: -0.4rem;
+}
+
+.WriteBox button:hover {
+  background-color: #f2541b;
+  color: #0d0d0d; /* Black */
+  cursor: pointer;
 }
 
 .WriteBoxButtons {
@@ -61,7 +125,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: -0.4rem;
+  margin-top: 0.4rem;
 }
 
 .WriteBoxIcons button {
@@ -82,10 +147,34 @@
 }
 
 .LeftSidebar a {
-  color: #ffffff; /* White */
+  color: #f26716;
   text-decoration: underline;
 }
 
 .LeftSidebar a:hover {
   color: orange;
+}
+
+.charCount {
+  color: white;
+  font-size: 11.2px;
+  margin-right: 0.3rem;
+}
+
+.postButton {
+  background-color: #f26716 !important;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.2rem 0.63rem;
+  cursor: pointer;
+}
+
+.postButton:hover {
+  background-color: #c94d20 !important;
+  color: white !important;
+}
+
+.Footer {
+  margin-left: -1.4rem;
 }

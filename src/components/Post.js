@@ -4,6 +4,7 @@ import { PiArrowBendUpLeftBold } from "react-icons/pi";
 import { BiRepost } from "react-icons/bi";
 import { FaRegBookmark } from "react-icons/fa";
 import { IoMdStarOutline } from "react-icons/io";
+import { IoIosMore } from "react-icons/io";
 
 export default function Post(props) {
     return (
@@ -23,12 +24,12 @@ export default function Post(props) {
                 <img src={props.postImage} alt={props.postImageALT} />
             </div>
             {/* Footer do Post */}
-            <div className="PostFooter">
-                <PiArrowBendUpLeftBold />
-                <BiRepost />
-                <FaRegBookmark />
-                <IoMdStarOutline />
-                <button>...</button>
+            <div className="PostOptions">
+                <button  className="OptionBtn" ><PiArrowBendUpLeftBold /></button>
+                <button  className="OptionBtn" ><BiRepost /></button>
+                <button  className="OptionBtn" ><FaRegBookmark /></button>
+                <button  className="OptionBtn" ><IoMdStarOutline/></button>
+                <button className="OptionBtn"><IoIosMore /></button>
             </div>
         </div>
     )

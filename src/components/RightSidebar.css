@@ -1,12 +1,13 @@
  .RightSidebar {
     position: fixed;
     right: 0;
+    margin-right: 13%;
     bottom: 0;
     top: 0;
-    width: 200px;
+    width: 13vw;
     padding: 20px;
-    background-color: #1f1f3d; /* Dark Purple */
-    border-left: solid 1px #ccc; /* TODO: Maybe remove */
+    background-color: #0D0D0D; /* Dark Purple */
+    border-left: solid 1px #BF3617; /* TODO: Maybe remove */
  }
 
  .Logo img {
@@ -28,7 +29,7 @@
  }
 
 .Menu li:hover {
-    color: orange;
+    color: #F2541B;
 }
 
 .Menu li a{

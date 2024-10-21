@@ -1,19 +1,67 @@
 .Post {
+  border-bottom: 1px solid #bf3617;
+  padding: 10px;
+  border-radius: 5px;
+}
 
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px 0px;
+/* User's post */
+.PostHeader {
+  display: flex;
+  align-items: center;
+}
 
+.ProfilePicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  margin-right: 0.7rem;
+}
+
+.ProfileIDs h4,
+.ProfileIDs p {
+  margin: 0;
+}
+
+.ProfileIDs h4 {
+  color: #ccc;
+}
+.ProfileIDs p {
+  color: gray;
+  font-weight: lighter;
+  font-size: small;
 }
 
 .PostHeader img {
-    width: 40px;
-    border-radius: 30%;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
 }
 
 .PostContent img {
-    width: 75%;
-    border-radius: 5px;
-    margin-top: 10px;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover; /*So the image might fit the frame*/
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
+.PostContent p {
+    color: #ccc ;
+}
+
+/* Footer */
+.PostOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.7rem;
+  font-size: medium;
+}
+
+.OptionBtn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #bf3617;
+  font-size: medium;
+}
