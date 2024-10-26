@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mamut 🐘 - Clone do Mastodon
 
-## Available Scripts
+![Mockup do projeto Mamut](/mamut/public/smartmockups_m2po6n6q.jpg)
 
-In the project directory, you can run:
+Bem-vindo ao **Mamut**! Este é um clone inspirado no Mastodon, desenvolvido como parte do curso PROA e hospedado no Vercel. O projeto permite a criação de posts com texto e imagem, simula funcionalidades de redes sociais e possui uma interface inspirada no Mastodon.
 
-### `npm start`
+### 🖥️ Acesse o Mamut Online
+[**https://mamut-three.vercel.app/**](https://mamut-three.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- **Criação de Posts**: Os usuários podem criar posts com até 500 caracteres e anexar uma imagem opcional.
+- **Timeline Interativa**: Exibe os posts em uma linha do tempo organizada, permitindo uma visualização fluida e dinâmica dos conteúdos.
+- **Componentização**: Projeto desenvolvido em React, utilizando componentes para fácil manutenção e escalabilidade.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js**: Biblioteca principal para a criação da interface do usuário.
+- **CSS**: Estilização da interface com layout responsivo.
+- **Vercel**: Hospedagem para a aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estrutura do Projeto
 
-### `npm run eject`
+- **App.js**: Componente principal, responsável pela estrutura e integração dos componentes principais (barras laterais, feed de posts).
+- **LeftSidebar.js**: Componente que gerencia a criação de novos posts.
+- **RightSidebar.js**: Componente com links e informações adicionais para navegação.
+- **Post.js**: Componente que exibe cada post na timeline com suporte a texto e imagens.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Instalação e Execução Local
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/mamut-clone.git
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Instale as dependências:
+    ```bash
+    cd mamut-clone
+    npm install
+    ```
 
-## Learn More
+3. Inicie a aplicação:
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A aplicação estará disponível em **http://localhost:3000**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Agradecimentos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Gostaríamos de expressar nossa gratidão ao professor **Gabriel Augusto** pelo apoio e orientação ao longo do curso, que foram fundamentais para o desenvolvimento deste projeto.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Licença
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é desenvolvido para fins educacionais e faz parte do curso oferecido pela **PROA**.
