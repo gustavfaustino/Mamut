@@ -1,7 +1,7 @@
 
 # Mamut 🐘 - Clone do Mastodon
 
-![Mockup do projeto Mamut](/mamut/public/smartmockups_m2po6n6q.jpg)
+![Mockup do projeto Mamut](public/smartmockups_m2po6n6q.jpg)
 
 Bem-vindo ao **Mamut**! Este é um clone inspirado no Mastodon, desenvolvido como parte do curso PROA e hospedado no Vercel. O projeto permite a criação de posts com texto e imagem, simula funcionalidades de redes sociais e possui uma interface inspirada no Mastodon.
 
