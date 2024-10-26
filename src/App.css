@@ -17,12 +17,10 @@ body {
   position: relative;
 }
 
-/* Barra superior fixa */
 .TopBar {
   position: sticky;
   top: 0;
-  background-color: #0D0D0D; /* Dark Purple */ 
-  /* TODO: Change to a color that goes good with orange */
+  background-color: #0D0D0D;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -36,7 +34,7 @@ body {
 
 .TopBar button {
   background-color: transparent;
-  color: #F2541B; /* Orange */
+  color: #F2541B;
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -49,6 +47,55 @@ body {
 
 .TopBar button:hover {
   background-color: #F2541B;
-  color: #0D0D0D; /* Black */
+  color: #0D0D0D;
 }
 
+/* Media Queries para dispositivos móveis */
+@media (max-width: 1024px) {
+  .Central {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .TopBarIcon {
+    font-size: 1.2rem;
+  }
+
+  .TopBar button {
+    font-size: 0.9rem;
+    padding: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Central {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .TopBar button {
+    font-size: 0.8rem;
+  }
+
+  .TopBarIcon {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Central {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .TopBar {
+    flex-direction: column;
+  }
+
+  .TopBar button {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}

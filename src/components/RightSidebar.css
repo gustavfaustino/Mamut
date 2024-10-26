@@ -1,42 +1,68 @@
- .RightSidebar {
-    position: fixed;
-    right: 0;
-    margin-right: 13%;
-    bottom: 0;
-    top: 0;
-    width: 13vw;
-    padding: 20px;
-    background-color: #0D0D0D; /* Dark Purple */
-    border-left: solid 1px #BF3617; /* TODO: Maybe remove */
+.RightSidebar {
+   position: fixed;
+   right: 0;
+   margin-right: 13%;
+   bottom: 0;
+   top: 0;
+   width: 13vw;
+   padding: 20px;
+   background-color: #0D0D0D;
+   border-left: solid 1px #BF3617;
  }
-
+ 
  .Logo img {
-    width: 80%;
-    margin-bottom: 20px;
-    margin-left: 10%;
+   width: 80%;
+   margin-bottom: 20px;
+   margin-left: 10%;
  }
-
+ 
  .Menu ul {
-    list-style: none;
-    padding: 0;
+   list-style: none;
+   padding: 0;
  }
-
+ 
  .Menu li {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    cursor: pointer;
+   display: flex;
+   align-items: center;
+   padding: 10px 0;
+   cursor: pointer;
  }
-
-.Menu li:hover {
-    color: #F2541B;
-}
-
-.Menu li a{
-    text-decoration: none;
-    color: inherit;
-}
-
-.Menu li .icon {
-    margin-right: 10px;
-}
+ 
+ .Menu li:hover {
+   color: #F2541B;
+ }
+ 
+ .Menu li a {
+   text-decoration: none;
+   color: inherit;
+ }
+ 
+ .Menu li .icon {
+   margin-right: 10px;
+ }
+ 
+ /* Media Queries */
+ @media (max-width: 1024px) {
+   .RightSidebar {
+     width: 20vw;
+     margin-right: 5%;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .RightSidebar {
+     width: 30vw;
+     margin-right: 2%;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .RightSidebar {
+     width: 100%;
+     position: static;
+     margin-right: 0;
+     margin-left: 0;
+     border-left: none;
+   }
+ }
+ 

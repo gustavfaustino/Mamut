@@ -178,3 +178,32 @@
 .Footer {
   margin-left: -1.4rem;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .LeftSidebar {
+    width: 20vw;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .LeftSidebar {
+    width: 30vw;
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .LeftSidebar {
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    margin-right: 0;
+    border-right: none;
+  }
+
+  .WriteBox textarea {
+    width: 90%;
+  }
+}

@@ -65,3 +65,27 @@
   color: #bf3617;
   font-size: medium;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .PostContent img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .PostContent img {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .PostContent img {
+    height: 30vh;
+  }
+
+  .ProfilePicture {
+    width: 30px;
+    height: 30px;
+  }
+}

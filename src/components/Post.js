@@ -10,7 +10,7 @@ export default function Post(props) {
     return (
         <div className="Post">
             <div className="PostHeader">
-                <div className="ProfilePicture" >
+                <div className="ProfilePicture">
                     <img src={props.userIcon} alt="Profile picture" />
                 </div>
                 <div className="ProfileIDs">
@@ -18,19 +18,21 @@ export default function Post(props) {
                     <p>{props.userID}</p>
                 </div>
             </div>
-            {/* Conteudo do Post */}
+            {/* Conteúdo do Post */}
             <div className="PostContent">
                 <p>{props.postContent}</p>
-                <img src={props.postImage} alt={props.postImageALT} />
+                {props.postImage && (
+                    <img src={props.postImage} alt={props.postImageALT || ""} />
+                )}
             </div>
             {/* Footer do Post */}
             <div className="PostOptions">
-                <button  className="OptionBtn" ><PiArrowBendUpLeftBold /></button>
-                <button  className="OptionBtn" ><BiRepost /></button>
-                <button  className="OptionBtn" ><FaRegBookmark /></button>
-                <button  className="OptionBtn" ><IoMdStarOutline/></button>
+                <button className="OptionBtn"><PiArrowBendUpLeftBold /></button>
+                <button className="OptionBtn"><BiRepost /></button>
+                <button className="OptionBtn"><FaRegBookmark /></button>
+                <button className="OptionBtn"><IoMdStarOutline /></button>
                 <button className="OptionBtn"><IoIosMore /></button>
             </div>
         </div>
-    )
+    );
 }
