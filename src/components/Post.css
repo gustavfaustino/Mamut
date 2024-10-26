@@ -66,7 +66,20 @@
   font-size: medium;
 }
 
-/* Media Queries */
+.OptionBtn {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.LikeCount {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #f39c12; /* cor que combine com o design */
+}
+
+
+/* Media Queries, tentativa */
 @media (max-width: 1024px) {
   .PostContent img {
     height: 50vh;
