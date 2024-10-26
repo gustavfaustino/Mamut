@@ -100,7 +100,11 @@
   color: #0d0d0d; /* Black */
   cursor: pointer;
 }
-
+.fileInputStyle:hover {
+  background-color: #f2541b;
+  color: #0d0d0d; /* Black */
+  cursor: pointer;
+}
 .WriteBoxButtons {
   display: flex;
   justify-content: space-between;

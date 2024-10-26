@@ -68,7 +68,7 @@ export default function LeftSidebar(props) {
                             id="fileInput" 
                             onChange={handleImageUpload} 
                         />
-                        <label htmlFor="fileInput">
+                        <label htmlFor="fileInput" className="fileInputStyle">
                             <MdOutlinePhotoLibrary className="iconOrange" style={{ cursor: 'pointer' }} />
                         </label>
                         <button><ImStatsBars className="iconOrange" /></button>
